@@ -15,7 +15,7 @@ public enum VirtualBank {
 extension VirtualBank: TargetType {
 
     public var baseURL: URL {
-        return URL(string: "https://dev.botsfinancial.com")!
+        return URL(string: "https://botsfinancial.com")!
     }
     
     public var path: String {
